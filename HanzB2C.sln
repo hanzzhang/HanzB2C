@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C57D728-28EE-4C8D-A8BD-A48D9293D1B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFEFA5BF-240E-4CC7-ABF7-8C7F0C0C8C98}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HanzB2C", "src\HanzB2C\HanzB2C.xproj", "{68CBE262-E9F0-4136-A34C-2811D505F640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CBE262-E9F0-4136-A34C-2811D505F640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CBE262-E9F0-4136-A34C-2811D505F640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CBE262-E9F0-4136-A34C-2811D505F640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CBE262-E9F0-4136-A34C-2811D505F640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68CBE262-E9F0-4136-A34C-2811D505F640} = {5C57D728-28EE-4C8D-A8BD-A48D9293D1B0}
+	EndGlobalSection
+EndGlobal

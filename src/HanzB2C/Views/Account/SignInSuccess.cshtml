@@ -1,0 +1,20 @@
+﻿@using System.Security.Claims
+@model IEnumerable<Claim>
+@{
+    ViewData["Title"] = "Sign In Success";
+}
+<h2>@ViewData["Title"].</h2>
+<p class="text-success">Welcome, You have successfully signed in. Here are your claims:</p>
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-md-12">@item.Type</div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div><div class="col-md-11">@item.Value</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">*************************************************************</div>
+    </div>
+}
+
